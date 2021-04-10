@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+/* 
+  Thuộc tính CSS
+  transition: ????
+
+  Selector
+  :hover {
+
+  }
+*/
+
+.btn {
+  border: 1px solid #37474f;
+  height: 55px;
+  font-size: 16px;
+  background-color: white;
+  padding: 0 50px;
+  color: #37474f;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0);
+  transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #37474f;
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+.btn-2 {
+  border: 1px solid #37474f;
+  height: 55px;
+  font-size: 16px;
+  background-color: white;
+  padding: 0 50px;
+  color: #37474f;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s;
+}
+.btn-2 .rect {
+  background-color: #37474f;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  bottom: 0;
+  right: 20%;
+  opacity: 0;
+  transition: left 0.3s, right 0.3s, opacity 0.3s;
+}
+.btn-2 .text {
+  position: relative;
+  z-index: 1;
+}
+.btn-2:hover  {
+  color: white;
+}
+.btn-2:hover .rect {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+
+
+
+.btn-3 {
+  border: 1px solid #37474f;
+  height: 55px;
+  font-size: 16px;
+  background-color: white;
+  padding: 0 50px;
+  color: #37474f;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.4s;
+  overflow: hidden;
+}
+.btn-3 .text {
+  position: relative;
+  z-index: 1;
+}
+.btn-3 .rect {
+  background-color: #37474f;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    bottom: 0;
+    right: 0;
+    transform: translate(-20px, -20px) rotate(-90deg);
+    transform-origin: 0 100%;
+    transition: transform 0.4s;
+}
+.btn-3:hover  {
+  color: white;
+}
+.btn-3:hover .rect {
+  transform: translate(0, 0) rotate(0);
+}
