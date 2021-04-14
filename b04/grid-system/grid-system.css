@@ -1,0 +1,55 @@
+
+
+.tcl-row {
+  margin-left: -15px;
+  margin-right: -15px;
+  font-size: 0;
+}
+
+/* .tcl-col-1, .tcl-col-2, .tcl-col-3, .tcl-col-4, .tcl-col-5, .tcl-col-6, .tcl-col-7, .tcl-col-8, .tcl-col-9, .tcl-col-10, .tcl-col-11,  .tcl-col-12, .tcl-col-2_4 { */
+.tcl-row > [class*="tcl-col-"] {
+  font-size: 16px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+  vertical-align: top;
+}
+
+.tcl-row.no-spacing {
+  margin-left: 0;
+  margin-right: 0;
+}
+.tcl-row.no-spacing > [class*="tcl-col-"] {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+
+.tcl-col-1 {
+  width: 8.3333333%;
+}
+.tcl-col-2 {
+  width: 16.6666666%;
+}
+.tcl-col-2_4 {
+  width: 20%;
+}
+.tcl-col-3 {
+  width: 25%;
+}
+.tcl-col-4 {
+  width: 33.33333333%;
+}
+.tcl-col-6 {
+  width: 50%;
+}
+.tcl-col-8 {
+  width: 66.6666666%;
+}
+.tcl-col-9 {
+  width: 66.6666666%;
+}
+.tcl-col-12 {
+  width: 100%;
+}
