@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .container {
   width: 1170px;
   margin-left: auto;
@@ -44,3 +48,8 @@
 /* .box-7 {
   background-color: lightcoral;
 } */
+
+
+.product-image img {
+  width: 100%;
+}

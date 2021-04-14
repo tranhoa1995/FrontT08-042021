@@ -1,5 +1,3 @@
-
-
 .tcl-row {
   margin-left: -15px;
   margin-right: -15px;
@@ -16,11 +14,11 @@
   vertical-align: top;
 }
 
-.tcl-row.no-spacing {
+.tcl-row.no-gutters {
   margin-left: 0;
   margin-right: 0;
 }
-.tcl-row.no-spacing > [class*="tcl-col-"] {
+.tcl-row.no-gutters > [class*="tcl-col-"] {
   padding-left: 0;
   padding-right: 0;
   margin-bottom: 0;
